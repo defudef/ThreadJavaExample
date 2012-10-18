@@ -8,12 +8,12 @@ public class HelloThread extends Thread{
 	}
 	
 	public void run() {
-		hello("Aaa");
+		hello("thread");
 	}
 	
 	public HelloThread() {
 		start();
-		hello("Bbb");
+		hello("main");
 	}
 	
 	public static void main(String[] args) {
